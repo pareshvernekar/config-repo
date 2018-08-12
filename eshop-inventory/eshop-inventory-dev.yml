@@ -6,7 +6,7 @@ spring.jpa.hibernate.ddl-auto:create-drop
 spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.url: "jdbc:postgresql://localhost:5432/inventory"
 spring.datasource.username: "docker"
-spring.datasource.password: "{cipher} 578d02738ac87298c60c3aa3b0fdea191fdaad540997d886390b6a993b09c70c"
+spring.datasource.password: "{cipher} c39560d6327f8132b41b74f9c6a2e538b11970a03ae5398b322d37d35b9198b9"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
