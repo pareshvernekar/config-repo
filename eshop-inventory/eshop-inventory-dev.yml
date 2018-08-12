@@ -7,7 +7,7 @@ spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.url: "jdbc:postgresql://localhost:5432/inventory"
 spring.datasource.username: "docker"
 
-spring.datasource.password: "docker@s"
+spring.datasource.password: "{cipher} 578d02738ac87298c60c3aa3b0fdea191fdaad540997d886390b6a993b09c70c"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
