@@ -1,0 +1,13 @@
+tracer.property: "I AM THE DEV"
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.jpa.hibernate.ddl-auto: create-drop
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/shoppingcart"
+spring.datasource.username: "docker"
+spring.datasource.password: "{cipher}c39560d6327f8132b41b74f9c6a2e538b11970a03ae5398b322d37d35b9198b9"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+eshop.inventory.serviceId:"eshop-inventory"
