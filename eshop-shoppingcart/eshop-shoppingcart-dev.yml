@@ -10,4 +10,4 @@ spring.datasource.password: "{cipher}c39560d6327f8132b41b74f9c6a2e538b11970a03ae
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
-eshop.inventory.serviceId:"eshop-inventory"
+eshop.inventory.serviceId: "eshop-inventory"
