@@ -11,3 +11,8 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 eshop.inventory.serviceId: "eshop-inventory"
+# Disable Hystrix timeout globally (for all services)
+hystrix.command.default.execution.timeout.enabled: false
+
+# Increase the Hystrix timeout to 60s (globally)
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
